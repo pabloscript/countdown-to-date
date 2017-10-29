@@ -12,3 +12,7 @@
     display: inline;
     margin: 10px;
 }
+
+input {
+    width: 250px;
+}
