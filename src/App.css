@@ -1,19 +1,38 @@
 .App {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
     font-size: 30px;
     margin: 20%;
 }
 
 .App-title {
     font-size: 45px;
+    align-self: center;
 }
 
-.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
-    display: inline;
+.Clock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    color: dimgray;
     margin: 10px;
+    max-width: 100%;
+}
+
+.Clock div {
+    padding: 10px;
+}
+
+.Form {
+    text-align: center;
 }
 
 .Deadline-input {
     font-size: 15px;
-    margin: 5px;
+    margin: 10px;
 }
