@@ -1,11 +1,11 @@
 .App {
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     margin: 20%;
 }
 
 .App-title {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
@@ -13,6 +13,7 @@
     margin: 10px;
 }
 
-input {
-    width: 250px;
+.Deadline-input {
+    font-size: 15px;
+    margin: 5px;
 }
