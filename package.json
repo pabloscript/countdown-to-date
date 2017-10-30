@@ -12,6 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "homepage" : "https://pabloscript.github.io/countdown-to-date/",
     "eject": "react-scripts eject"
   }
+  
 }
